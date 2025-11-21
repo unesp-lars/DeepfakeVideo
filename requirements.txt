@@ -1,2 +1,29 @@
-av
-Pillow
+
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+
+# Bibliotecas principais de ML/DS
+numpy
+scipy
+scikit-learn
+pandas
+tqdm
+opencv-python
+
+# Modelos (Hugging Face)
+huggingface_hub
+transformers
+
+# Dependências do VideoCLIP-XL
+ftfy
+regex
+timm
+decord
+einops
+
+# Outras
+matplotlib
+pillow
